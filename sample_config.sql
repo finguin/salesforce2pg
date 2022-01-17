@@ -8,6 +8,7 @@ INSERT INTO ciq.salesforce_instances VALUES -- most required
 INSERT INTO ciq.api_table VALUES 
 ('your_instance.my.salesforce.com', 'Account', 'account', 'LastModifiedDate', 'account_id', ARRAY['postgres'], 'BillingCountry = ''France'''),
 ('your_instance.my.salesforce.com', 'Contact', 'contact', 'LastModifiedDate', 'contact_id', ARRAY['postgres'], 'Department = ''finance'''),
+('your_instance.my.salesforce.com', 'APAC_Subscription__c', 'subscriptions', 'LastModifiedDate', 'id', ARRAY['postgres'], 'Department = ''finance'''),
 ;
 
 INSERT INTO ciq.api_column VALUES 
